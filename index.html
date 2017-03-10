@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="client.js"></script>
+</head>
+<body>
+<div class="content">
+    <div id="buttonGetWrapper">
+        <a href="javascript:void(0);" class="button" onclick="requestObject.sendGetRequest('getData');">Send GET</a>
+    </div>
+    <div class="clear:both"></div>
+    <div id="buttonPostWrapper">
+        <form id="postDataForm">
+            <input type="text" placeholder="Write anything..." id="postField" name="postField">
+        </form>
+        <div class="clear:both"></div>
+        <a href="javascript:void(0);" class="button"
+           onclick="requestObject.sendPostRequest('postData', 'postDataForm');">Send
+            POST</a>
+    </div>
+    <div class="clear:both"></div>
+</div>
+<div class="clear:both"></div>
+<div id="responseWrapper"></div>
+</body>
+</html>

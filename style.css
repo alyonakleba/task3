@@ -1,0 +1,79 @@
+body {
+    background-color: #c6c6c6;
+    text-align: center;
+}
+
+.content {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#buttonGetWrapper {
+    width: 350px;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+a.button {
+    position: relative;
+    /*display: inline;*/
+    float: none;
+    color: #767676;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, .5) 1px 1px, rgba(100, 100, 100, .3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%),
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .3)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0, 0, 0, .5) 3px 10px 10px -10px;
+}
+
+a.button:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+a.button:active {
+    top: 1px;
+}
+
+#buttonPostWrapper {
+    width: 350px;
+    height: 100px;
+    float: left;
+    margin-top: 40px;
+}
+
+#postDataForm {
+    margin-bottom: 25px;
+}
+
+#postField {
+    padding: .6em 2.6em .6em .3em;
+    vertical-align: middle;
+}
+
+#responseWrapper {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 145px;
+    color: #402813;
+    text-align: center;
+    font-size: x-large;
+}
